@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Comparison Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+        caption {
+            caption-side: top;
+            font-size: 1.2em;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <caption>NDCG@10 score of various retrievers on \name. The best score is marked in boldface.</caption>
+    <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Model</th>
+            <th>Model Size (Million Parameters)</th>
+            <th>Memory Usage (GB, fp32)</th>
+            <th>Embedding Dimensions</th>
+            <th>Max Tokens</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Contriever</td>
+            <td>110</td>
+            <td>5.14</td>
+            <td>768</td>
+            <td>1024</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>E5-base</td>
+            <td>110</td>
+            <td>11.52</td>
+            <td>768</td>
+            <td>1024</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>BGE-Base</td>
+            <td>110</td>
+            <td>4.05</td>
+            <td>768</td>
+            <td>1024</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>GTE-Base</td>
+            <td>110</td>
+            <td>3.24</td>
+            <td>768</td>
+            <td>1024</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>UniXcoder</td>
+            <td>123</td>
+            <td>1.36</td>
+            <td>768</td>
+            <td>1024</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>BGE-M3</td>
+            <td>567</td>
+            <td>7.37</td>
+            <td>1024</td>
+            <td>2048</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>E5-Mistral</td>
+            <td>7000</td>
+            <td>21.33</td>
+            <td>1280</td>
+            <td>4096</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>OpenAI-Ada-002</td>
+            <td>-</td>
+            <td>8.70</td>
+            <td>768</td>
+            <td>1024</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Voyage-Code-002</td>
+            <td>-</td>
+            <td>26.52</td>
+            <td>768</td>
+            <td>1024</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
