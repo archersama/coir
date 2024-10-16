@@ -60,8 +60,8 @@ class InMemoryDataLoader:
 
 def load_data_from_hf(task_name):
     try:
-        queries_corpus_dataset = load_dataset(f"CoIR-Retrieval/{task_name}-queries-corpus")
-        qrels_dataset = load_dataset(f"CoIR-Retrieval/{task_name}-qrels")
+        queries_corpus_dataset = load_dataset(f"xxxx/{task_name}-queries-corpus")
+        qrels_dataset = load_dataset(f"xxxx/{task_name}-qrels")
 
         corpus_data = queries_corpus_dataset['corpus']
         query_data = queries_corpus_dataset['queries']
