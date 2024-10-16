@@ -38,8 +38,6 @@
 
 ## :coconut: Data Availability
 
-All data has been uploaded to our Hugging Face page: [CoIR-Retrieval](https://huggingface.co/CoIR-Retrieval)
-
 
 ### Statistics of datasets in coir benchmark
 \# is the quantity of query/corpus instances. L refers to the average numbers of words per query/corpus. Datasets marked by \(^\dag\) are created by us.
