@@ -2,6 +2,8 @@
 
 We will release the dataset once the review process is complete, as its size exceeds the 200 MB limit imposed by the submission system.
 
+Currently, the package is non-operational due to the anonymization of the dataset.
+
 
 
 ## :coconut: What is CoIR?
