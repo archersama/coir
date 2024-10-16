@@ -1,28 +1,10 @@
-<h1 align="center">
-<img style="vertical-align:middle" width="400" src="pictures/coir_3.png" />
-</h1>
 
-<p align="center">
-    <a href="https://github.com/beir-cellar/beir/releases">
-        <img alt="GitHub release" src="https://img.shields.io/github/release/beir-cellar/beir.svg">
-    </a>
-    <a href="https://www.python.org/">
-            <img alt="Build" src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?color=purple">
-    </a>
-    <a href="https://github.com/CoIR-team/coir/blob/main/LICENSE">
-        <img alt="License" src="https://img.shields.io/github/license/beir-cellar/beir.svg?color=green">
-    </a>
-    <a href="xxxxxxxxxx">
-        <img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg">
-    </a>
-    <a href="https://github.com/CoIR-team/coir">
-        <img alt="Downloads" src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103">
-    </a>
-</p>
 
 
 
 ## :coconut: What is CoIR?
+
+We will release the dataset once the review process is complete, as its size exceeds the 200 MB limit imposed by the submission system.
 
 **CoIR** (**Co**de **I**nformation **R**etrieval) benchmark, is designed to evaluate code retrieval capabilities. CoIR includes **10** curated code datasets, covering **8** retrieval tasks across **7** domains. It also provides a **common and easy** Python framework, installable via pip, and shares the same data schema as benchmarks like MTEB and BEIR for easy cross-benchmark evaluations.
 
