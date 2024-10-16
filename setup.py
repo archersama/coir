@@ -3,8 +3,8 @@ from setuptools import setup, find_packages
 setup(
     name="coir-eval",
     version="0.7.0",
-    author="xiangyang Li",
-    author_email="xiangyangli@pku.edu.cn",
+    author="xxxx",
+    author_email="xxxx",
     description="A package for COIR evaluations",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
