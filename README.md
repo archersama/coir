@@ -1,10 +1,10 @@
 
 
+We will release the dataset once the review process is complete, as its size exceeds the 200 MB limit imposed by the submission system.
+
 
 
 ## :coconut: What is CoIR?
-
-We will release the dataset once the review process is complete, as its size exceeds the 200 MB limit imposed by the submission system.
 
 **CoIR** (**Co**de **I**nformation **R**etrieval) benchmark, is designed to evaluate code retrieval capabilities. CoIR includes **10** curated code datasets, covering **8** retrieval tasks across **7** domains. It also provides a **common and easy** Python framework, installable via pip, and shares the same data schema as benchmarks like MTEB and BEIR for easy cross-benchmark evaluations.
 
