@@ -26,9 +26,8 @@
 
 **CoIR** (**Co**de **I**nformation **R**etrieval) benchmark, is designed to evaluate code retrieval capabilities. CoIR includes **10** curated code datasets, covering **8** retrieval tasks across **7** domains. It also provides a **common and easy** Python framework, installable via pip, and shares the same data schema as benchmarks like MTEB and BEIR for easy cross-benchmark evaluations.
 
-For **models and datasets**, checkout out **Hugging Face (HF)** page: [https://huggingface.co/CoIR-Retrieval](https://huggingface.co/CoIR-Retrieval).
 
-For more information, checkout out our **publication**: [COIR: A Comprehensive Benchmark for Code Information Retrieval Models](linktobedo)
+
 
 <div align="center">
     <img src="pictures/coir_overview.svg" width="850" />
@@ -64,22 +63,6 @@ All data has been uploaded to our Hugging Face page: [CoIR-Retrieval](https://hu
 - CoIR supports seamless integration with Hugging Face and other libraries, enabling one-click loading and evaluation of models.
 - CoIR supports custom models and API-based models, offering flexible integration options for diverse requirements.
 
-
-### :coconut: Installation
-
-Install the `coir-eval` package via pip:
-
-```bash
-pip install coir-eval
-```
-
-If you want to build from source, use:
-
-```bash
-$ git clone git@github.com:CoIR-team/coir.git
-$ cd coir
-$ pip install -e .
-```
 
 ### :coconut: Simple Usage
 
@@ -351,46 +334,4 @@ print(results)
 
 </details> ```
 
-## :coconut: Disclaimer
 
-CoIR is an enhancement built on top of the BEIR framework. Compared to BEIR, CoIR supports loading models using the Hugging Face methodology, significantly simplifying the installation process. Additionally, it replaces the BEIR dependency `pytrec_eval` with `pytrec-eval-terrier`, thereby resolving the installation failures caused by the `pytrec_eval` dependency in BEIR.
-
-If you're a dataset owner and wish to update any part of it, or do not want your dataset to be included in this library, feel free to post an issue here or make a pull request!
-
-If you're a dataset owner and wish to include your dataset or model in this library, feel free to post an issue here or make a pull request!
-
-
-## :coconut: Citing & Authors
-If you find this repository helpful, feel free to cite our publication [COIR: A Comprehensive Benchmark for Code Information Retrieval Models](https://arxiv.org/abs/2407.02883):
-
-```
-@misc{li2024coircomprehensivebenchmarkcode,
-      title={CoIR: A Comprehensive Benchmark for Code Information Retrieval Models}, 
-      author={Xiangyang Li and Kuicai Dong and Yi Quan Lee and Wei Xia and Yichun Yin and Hao Zhang and Yong Liu and Yasheng Wang and Ruiming Tang},
-      year={2024},
-      eprint={2407.02883},
-      archivePrefix={arXiv},
-      primaryClass={cs.IR},
-      url={https://arxiv.org/abs/2407.02883}, 
-}
-```
-
-## :coconut: Contributors
-
-Thanks go to all these wonderful collaborations for their contribution towards the CoIR benchmark:
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/archersama"><img src="https://avatars.githubusercontent.com/u/14331643?v=4" width="100px;" alt=""/><br /><sub><b>Xiangyang Li</b></sub></a></td>
-    <td align="center"><a href="https://github.com/monikernemo"><img src="https://avatars.githubusercontent.com/u/34767152?v=4" width="100px;" alt=""/><br /><sub><b>Yi Quan Lee</b></sub></a></td>
-    <td align="center"><a href="https://github.com/daviddongkc"><img src="https://avatars.githubusercontent.com/u/37006388?v=4" width="100px;" alt=""/><br /><sub><b>Kuicai Dong</b></sub></a></td>
-    <td align="center"><a href="https://26hzhang.github.io"><img src="https://avatars.githubusercontent.com/u/20762516?v=4" width="100px;" alt=""/><br /><sub><b>Hao Zhang</b></sub></a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
