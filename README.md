@@ -48,33 +48,7 @@ Currently, the package is non-operational due to the anonymization of the datase
 
 ### :coconut: Simple Usage
 
-If you have installed the `coir-eval` package, directly use the following code to run the evaluation:
-
-```python
-import coir
-from coir.data_loader import get_tasks
-from coir.evaluation import COIR
-from coir.models import YourCustomDEModel
-
-model_name = "intfloat/e5-base-v2"
-
-# Load the model
-model = YourCustomDEModel(model_name=model_name)
-
-# Get tasks
-#all task ["codetrans-dl","stackoverflow-qa","apps","codefeedback-mt","codefeedback-st","codetrans-contest","synthetic-
-# text2sql","cosq","codesearchnet","codesearchnet-ccr"]
-tasks = get_tasks(tasks=["codetrans-dl"])
-
-# Initialize evaluation
-evaluation = COIR(tasks=tasks，batch_size=128)
-
-# Run evaluation
-results = evaluation.run(model, output_folder=f"results/{model_name}")
-print(results)
-```
-
-You may also download this GitHub repository (`python>3.8`) and use as follows:
+You can download this GitHub repository (`python>3.8`) and use as follows:
 
 ```python
 import coir
